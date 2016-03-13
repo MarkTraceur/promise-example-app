@@ -1,0 +1,19 @@
+This is an application with several examples of using promises to
+fire Ajax requests, and perform other asynchronous operations.
+
+The backend is not notable, it's a simple web application with a
+limited create/fetch system, its API is practically trivial.
+
+The frontend script can be switched out by passing ?useScript=nn,
+where nn is a number between 01 and 11. Add more scripts if you like,
+or use 00 (or any other undefined number) to see the page without
+any JavaScript interference.
+
+To run:
+$ git clone https://github.com/MarkTraceur/promise-example-app
+$ cd promise-example-app
+$ npm install
+$ node server
+
+Then go to http://localhost:8888?useScript=01 to see the first
+example script.
