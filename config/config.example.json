@@ -1,0 +1,7 @@
+{
+	"development": {
+		"database": "songlist",
+		"username": "root",
+		"password": "password"
+	}
+}
